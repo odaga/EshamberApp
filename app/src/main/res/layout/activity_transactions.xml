@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransactionsActivity"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/transactions_toolbar"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 1"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction1"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 2"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction2"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 3"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction3"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 4"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction4"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 5"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction5"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction9"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction6"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 7"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction7"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 8"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="8"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction8"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction9"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction9"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 10"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="10"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction10"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 10"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="11"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction11"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                app:cardBackgroundColor="#FFFFE8">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/text_view_Transaction12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Transaction 10"
+                        android:maxLines="1"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+                    <TextView
+                        android:id="@+id/text_view_priority12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+                    <TextView
+                        android:id="@+id/text_view_description12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:text="Description for the details of the farm Transaction"
+                        android:layout_below="@+id/text_view_Transaction12"/>
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>
